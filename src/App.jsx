@@ -1,5 +1,6 @@
 import CR from "./component/CR";
 import Datas from "./component/Datas";
+import FormHandle from "./component/FormHandle";
 import Fruits from "./component/Fruits";
 import Hello from "./component/Hello";
 
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
       {/* <Hello person={person}  /> */}
-      <CR />
+      <FormHandle />
     </>
   );
 }
